@@ -11,6 +11,7 @@ import net.minecraft.item.BlockItem;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.tag.TagKey;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
@@ -25,6 +26,10 @@ public class ExampleMod implements ModInitializer {
     public static final Logger LOGGER = LoggerFactory.getLogger("tutorial");
 	//public static final Block LAPIS_RAIL  = new PoweredRailBlock(FabricBlockSettings.copy(Blocks.POWERED_RAIL));
 	public static final Block LAPIS_RAIL = new PoweredRailBlock(AbstractBlock.Settings.create().noCollision().strength(0.7f).sounds(BlockSoundGroup.METAL));
+
+    public static final TagKey<Block> TAG_POWERED_RAILS = TagKey.of(
+            RegistryKeys.BLOCK, new Identifier("tutorial", "powered_rails")
+    );
 
 	@Override
 	public void onInitialize() {
