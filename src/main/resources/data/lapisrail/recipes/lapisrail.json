@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "-": {
+        "item": "minecraft:stick"
+      },
+      "#": {
+        "item": "minecraft:lapis_block"
+      },
+      "I": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    "pattern": [
+      "I-I",
+      " # ",
+      "I-I"
+    ],
+    "result": {
+      "count": 24,
+      "item": "lapisrail:lapisrail"
+    },
+    "show_notification": true
+  }

@@ -1,7 +1,0 @@
-{
-    "replace": false,
-    "values": [
-      "minecraft:powered_rail",
-      "tutorial:lapis_rail"
-    ]
-  }

@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"package": "com.github.lineartom.lapisrail.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"MinecartMixin"
+	],
+	"client": [
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

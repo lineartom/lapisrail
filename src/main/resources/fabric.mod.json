@@ -1,29 +1,29 @@
 {
 	"schemaVersion": 1,
-	"id": "tutorial",
+	"id": "lapisrail",
 	"version": "${version}",
-	"name": "Example mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "lapisrail",
+	"description": "Rails made with Lapis are always powered! A sample mod for learning.",
 	"authors": [
 		"Me!"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/lineartom/lapisrail",
+		"sources": "https://github.com/lineartom/lapisrail"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/tutorial/icon.png",
+	"icon": "assets/lapisrail/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.example.ExampleMod"
+			"com.github.lineartom.lapisrail.LapisRailMod"
 		],
 		"client": [
-			"com.example.ExampleModClient"
+			"com.github.lineartom.lapisrail.LapisrailModClient"
 		]
 	},
 	"mixins": [
-		"tutorial.mixins.json"
+		"lapisrail.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.14.21",
